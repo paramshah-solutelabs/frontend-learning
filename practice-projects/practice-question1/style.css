@@ -1,0 +1,30 @@
+
+
+#box{
+    color: rgb(244, 100, 100);
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    color: green;
+}
+
+#upperheading{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* *{
+    font-family:Arial, Helvetica, sans-serif;
+} */
+
+#outer{
+    font-size: 40px;
+}
+
+#inner{
+    font-size: 20px;
+}

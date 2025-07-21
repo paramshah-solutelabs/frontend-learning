@@ -1,8 +1,13 @@
 h1{
-    background-color: red;
+    color: darkmagenta;  
+    text-align: center;
+    text-decoration: wavy underline;
+    font-weight: lighter;
+    text-transform: uppercase;
+    /* whatever is written later on will have higher priority */
 }
 
-button{
-    color: blue;
-    background-color: darkblue;
+p{
+    line-height: 20px;
+    text-align: center;
 }
