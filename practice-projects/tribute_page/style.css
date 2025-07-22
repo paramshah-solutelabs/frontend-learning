@@ -1,4 +1,57 @@
-html, body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: rgba(214, 208, 208, 0.363);
+}
+  
+#header-section{
+    background-color: blue;
+    height: 70px;
+    text-align: center;
+}
+
+#kalampic{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+#about-page{
+    border-radius: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+    height: 437px;
+}
+
+#kalam-about-title{
+    margin-left: 20px;
+}
+
+#kalam-about-description{
+    margin:10px 0px 0px 20px;
+}
+
+#achievements-section{
+    border-radius: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+    height: 200px;
+}
+
+#achievements-title{
+    padding: 20px;
+}
+
+#achievements-list{
+    padding: 10px 0px 0px 80px;
+}
+
+#footer{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+    color: white;
 }

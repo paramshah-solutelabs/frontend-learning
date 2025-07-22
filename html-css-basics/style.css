@@ -1,13 +1,59 @@
-h1{
+/* h1{
     color: darkmagenta;  
     text-align: center;
     text-decoration: wavy underline;
     font-weight: lighter;
-    text-transform: uppercase;
+    text-transform: uppercase; */
     /* whatever is written later on will have higher priority */
-}
+/* } */
 
-p{
+/* p{
     line-height: 20px;
     text-align: center;
+} */
+
+p{
+    background-color: pink;
+    height: 200px;
+    border: 2px solid black;
+}
+
+h1{
+    height: 200px;
+    background-color: yellow;
+    width: 200px;
+    padding: 50px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 45%;
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    margin: 10px 45%;
+    border-radius: 50%;
+    background-color: rgb(149, 211, 4);
+}
+
+#div3{
+    margin-top: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 45%;
+    background-color: rgb(7, 117, 57);
+}
+
+div{
+    background-color: blue;
+    border: 2px solid black;
 }
