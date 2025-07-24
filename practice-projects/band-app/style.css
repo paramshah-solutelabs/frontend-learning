@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+}
+
+.nav-item{
+    margin-right: 30px;
+}
+
+#nav-drop-img{
+    margin-left: 1px;
+}
+
+#bandimage-container{
+    position: relative;
+}
+
+#bandimage{
+    width: 100%;
+    display: block;
+}
+
+#bandimage-description {
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+#about-the-band{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#about-description{
+    text-align: justify;
+    padding: 0px 400px;
+}
+
+.band-members{
+    margin: 90px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+#tour-dates{
+    background-color: #000000;
+    color: white;
+    padding: 20px 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.tour-date-item{
+    background-color: white;
+    color: black;
+    height: 40px;
+}
+
+#tour-dates-container{
+    margin: 30px 500px;
+}
+
+.tour-date-item{
+    padding: 0px 50px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.349); 
+    font-size: 20px;
+    align-items: center;
+}
+
+.selling-status{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    line-height: 1;  
+    
+}
+
+.city-details{
+    background-color: white;
+}
+
+#current-events{
+    color: black;
+    display: flex;
+    margin: 20px 500px 100px 500px;
+    justify-content: space-between;
+    height: 380px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+.city-image {
+    width: 100%;
+}
+
+.city-description{
+    padding: 0px 20px;
+}
+
+.buy-tickets-button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+#footer{
+    margin: 100px 0px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+#footer-contact-info{
+    text-align: center;
+    display: flex;
+    padding: 0% 50%;
+}
